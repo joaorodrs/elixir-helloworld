@@ -1,21 +1,15 @@
-# ElixirHelloworld
+# Elixir Hello World!
+This is a basic hello world for Elixir learning. You can run this project by yourself following this steps:
 
-**TODO: Add description**
-
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `elixir_helloworld` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:elixir_helloworld, "~> 0.1.0"}
-  ]
-end
+### How to run
+- Make sure you have Elixir installed in your local machine, as well as Erlang and Mix
+- Clone this repo running `git clone https://github.com/joaorodrs/elixir-helloworld`
+- Run the project using `mix run lib/elixir_helloworld.ex`
+- You can run the functions in the IEX using `iex -S mix`
+- The functions available in IEX:
+```
+ElixirHelloworld.par?(2)
+ElixirHelloworld.hello(João, Maria)
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/elixir_helloworld](https://hexdocs.pm/elixir_helloworld).
-
+That's it!
